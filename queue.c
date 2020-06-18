@@ -35,6 +35,10 @@ void deQueue(){
 int main(int argc, char const *argv[])
 {
   /* code */
-  enQueue(10);
+  enQueue(1);
+  enQueue(2);
+  enQueue(3);
+  deQueue();
+  printf("Values are %d", values[rear]);
   return 0;
 }
